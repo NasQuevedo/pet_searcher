@@ -1,0 +1,80 @@
+#home {
+    background-color: #e7e7f5;
+}
+
+#welcome {
+    padding: 6rem;
+}
+
+#signup-content {
+    padding: 5rem;
+}
+
+#div-form {
+    border-left: 1px solid black;
+    padding: 5rem;
+    color: black;
+}
+
+#search {
+    padding: 2rem; 
+    text-align: center;
+}
+
+#found {
+    padding: 2rem; 
+    text-align: center;
+}
+
+#match {
+    padding: 2rem; 
+    text-align: center;
+}
+
+#main-services-section img {
+    width: 30%;
+}
+
+#emotional-help {
+    padding: 5rem; 
+    text-align: center; 
+    background-image: url('../img/help.jpg'); 
+    /*background-attachment: fixed;*/
+}
+
+#education {
+    padding: 2rem; 
+    text-align: center; 
+    background-image: url('../img/education.jpg'); 
+    /*background-attachment: fixed;*/
+    color: black;
+    background-size: 100% 100%;
+}
+
+#community {
+    text-align: center;
+    padding: 5rem;
+}
+
+#footer-first {
+    padding: 2rem;
+}
+
+#footer-first h5 {
+    border-bottom: 1px solid white;
+}
+
+#footer-first ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+#footer-second {
+    text-align: center; 
+    padding: 0.5rem;
+}
+
+#error-page {
+    text-align: center;
+    padding: 14rem;
+}

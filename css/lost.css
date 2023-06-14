@@ -1,0 +1,12 @@
+#lost-form {
+    padding: 2rem 5rem;
+    border-right: 1px solid black;
+}
+
+#lost-img {
+    padding: 10rem;
+}
+
+#lost-img img {
+    width: 100%;
+}

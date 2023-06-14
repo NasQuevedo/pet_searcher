@@ -1,0 +1,15 @@
+#match-form {
+    margin: 1rem auto;
+    text-align:center;
+}
+
+#match-space {
+    border: 2px dashed blue;
+    padding: 5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#match-space img {
+    width: 30%;
+}

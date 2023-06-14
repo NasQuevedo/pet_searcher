@@ -1,0 +1,12 @@
+#found-form {
+    padding: 2rem 5rem;
+    border-left: 1px solid black;
+}
+
+#found-img {
+    padding: 10rem;
+}
+
+#found-img img {
+    width: 100%;
+}
