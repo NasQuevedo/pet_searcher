@@ -13,14 +13,17 @@
         <div id="search" class="col-sm-4">
             <h4>Usuarios</h4>
             <p>Podra crear, editar, eliminar y consultar a los usuarios</p>
+            <img src="./icons/users.png" src="users" />
         </div>
         <div id="found" class="col-sm-4">
             <h4>Caracteristicas</h4>
             <p>Podra gestionar las caracteristicas de las mascotas</p>
+            <img src="./icons/characteristics.png" src="users" />
         </div>
         <div id="match" class="col-sm-4">
             <h4>PQRs</h4>
             <p>Podra ver las preguntas quejas y reclamos de los usuarios</p>
+            <img src="./icons/pqrs.png" src="users" />
         </div>
     </div>
 </section>

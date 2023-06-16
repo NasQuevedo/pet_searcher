@@ -1,5 +1,5 @@
 <?php
-require_once('../../model/db.class.php');
+require_once('db.class.php');
 
 class Admin extends Db {
     public function login ($email, $password)
@@ -55,20 +55,23 @@ class Admin extends Db {
         session_destroy();
     }
 
-    public function getUserTypes()
+    public function checkSuperAdmin($userId) 
     {
-        $params = [ 1 ];
+        $params = [$userId];
 
-        $query = "SELECT
-                    name,
-                    last_name,
-                    email
+        $query = "SELECT 
+                    superadmin
                 FROM users
-                WHERE user_type_id != ? ";
-    }
+                WHERE id = ?";
+        
+        $conn = $this->connect();
 
-    public function createUser($name, $lastName, $email, $password, $userType) 
-    {
+        $superadmin = $this->select($conn, $query, $params);
 
+        if (isset($superadmin['superadmin'])) {
+            return $superadmin['superadmin'];
+        }
+
+        return false;
     }
 }

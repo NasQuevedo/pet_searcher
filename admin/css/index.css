@@ -86,3 +86,9 @@
     text-align: center;
     padding: 14rem;
 }
+
+.edit,
+.delete,
+.enable {
+    cursor: pointer;
+}
