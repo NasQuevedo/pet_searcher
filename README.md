@@ -13,7 +13,7 @@ Instalar xampp desde la pagina oficial:
 - https://www.apachefriends.org/es/download.html
 
 Clonar el repositorio en la carpeta C:/xampp/htdocs/
-- git clone 
+- git clone https://github.com/PetSearcher/pet_searcher.git
 
 Base de datos
 - Crear la base de datos con el nombre pet_searcher en phpmyadmin
