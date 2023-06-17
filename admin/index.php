@@ -21,6 +21,7 @@
         <link href="./css/index.css" rel="stylesheet" />
         <?php if ($login) { ?>
             <link href="./css/user.css" rel="stylesheet" />
+            <link href="./css/characteristics.css" rel="stylesheet" />
         <?php } ?>
 
         <script src="./lib/jquery-3.7.0.min.js"></script>
@@ -43,7 +44,10 @@
                             </li>
                             <?php if ($login) { ?>
                                 <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.php?module=users">Usuarios</a>
+                                    <a class="nav-link active" aria-current="page" href="index.php?module=users">Usuarios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.php?module=characteristics">Caracteristicas</a>
                                 </li>
                             <?php } ?>
                         </ul>
