@@ -38,15 +38,13 @@
 #emotional-help {
     padding: 5rem; 
     text-align: center; 
-    background-image: url('../img/help.jpg'); 
-    /*background-attachment: fixed;*/
+    background-image: url('../img/help.jpg');
 }
 
 #education {
     padding: 2rem; 
     text-align: center; 
-    background-image: url('../img/education.jpg'); 
-    /*background-attachment: fixed;*/
+    background-image: url('../img/education.jpg');
     color: black;
     background-size: 100% 100%;
 }

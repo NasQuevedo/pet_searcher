@@ -23,6 +23,7 @@
             <link href="./css/lost.css" rel="stylesheet" />
             <link href="./css/found.css" rel="stylesheet" />
             <link href="./css/match.css" rel="stylesheet" />
+            <link href="./css/config.css" rel="stylesheet" />
         <?php } ?>
 
         <script src="./lib/jquery-3.7.0.min.js"></script>
@@ -66,7 +67,7 @@
                                         <?php echo $_SESSION['email']; ?>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a id="setup" class="dropdown-item" href="#">Configuración</a></li>
+                                        <li><a id="setup" class="dropdown-item" href="index.php?module=config">Configuración</a></li>
                                         <li><a id="logout" class="dropdown-item" href="#">Cerrar Sesión</a></li>
                                     </ul>
                                 </li>
