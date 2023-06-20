@@ -191,3 +191,11 @@ jQuery("#logout").on('click', () => {
         }
     });
 });
+
+jQuery("#accompaniment-button").on('click', () => {
+    location.href = "index.php?module=accompaniment";
+});
+
+jQuery("#education-button").on('click', () => {
+    location.href = "index.php?module=education";
+});

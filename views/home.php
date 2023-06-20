@@ -119,12 +119,12 @@
         <div id="emotional-help" class="col-sm-6">
             <h4>Ayuda Emocional</h4>
             <p>Contacta a uno de nuestro profesional para un acompañamiento emocional</p>
-            <button type="button" class="btn btn-info">Contactar</button>
+            <button type="button" id="accompaniment-button" class="btn btn-info">Contactar</button>
         </div>
         <div id="education" class="col-sm-6">
             <h4>Educación</h4>
             <p>Aprende todo sobre el cuidado de tu mascota</p>
-            <button type="button" class="btn btn-info">Me interesa!</button>
+            <button type="button" id="education-button" class="btn btn-info">Me interesa!</button>
         </div>
     </div>
 </section>
