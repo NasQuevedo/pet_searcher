@@ -96,7 +96,9 @@
                 <div class="col-sm-3" id="contact-us">
                     <h5>Contactanos</h5>
                     <ul>
-                        <li>Envianos un E-Mail</li>
+                        <li>
+                            <a href="index.php?module=pqrs">Envianos un E-Mail</a>
+                        </li>
                         <li>(+57) 321 6055462</li>
                         <li>Crr 3 # 8 -23 sur</li>
                         <li>Bogota D.C</li>
@@ -105,9 +107,15 @@
                 <div class="col-sm-3" id="other-services">
                     <h5>Otro Servicios</h5>
                     <ul>
-                        <li>Educación</li>
-                        <li>Acompañamiento</li>
-                        <li>PQRs</li>
+                        <li>
+                            <a href="index.php?module=education">Educación</a>
+                        </li>
+                        <li>
+                            <a href="index.php?module=accompaniment">Acompañamiento</a>
+                        </li>
+                        <li>
+                            <a href="index.php?module=pqrs">PQRs</a>
+                        </li>
                     </ul>
                 </div>
             </div>
