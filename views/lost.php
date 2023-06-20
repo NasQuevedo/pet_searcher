@@ -15,7 +15,7 @@
                 <input type="text" id="name" class="form-control" placeholder="Primera letra mayuscula, ej. (Tayra, Maggie, Sally, etc...)"/>
             </div>
             <div class="mb-3">
-                <label class="label-control">Sexo *</label>
+                <label for="genre" class="label-control">Sexo *</label>
                 <select id="genre" class="form-control">
                     <option value="">-- Seleccionar --</option>
                     <option value="1">Macho</option>
@@ -24,28 +24,28 @@
                 <div id="genre-error" class="form-text" style="color:red; display:none;">El Sexo es requerido</div>
             </div>
             <div class="mb-3">
-                <label class="label-control">Tipo *</label>
+                <label for="pet-type" class="label-control">Tipo *</label>
                 <select id="pet-type" class="form-control">
                     <option value="">-- Seleccionar --</option>
                 </select>
                 <div id="type-error" class="form-text" style="color:red; display:none;">El Tipo es requerido</div>
             </div>
             <div class="mb-3">
-                <label class="label-control">Raza *</label>
+                <label for="breeds" class="label-control">Raza *</label>
                 <select id="breeds" class="form-control">
                     <option value="">-- Seleccionar --</option>
                 </select>
                 <div id="breed-error" class="form-text" style="color:red; display:none;">El Raza es requerido</div>
             </div>
             <div class="mb-3">
-                <label class="label-control">Color *</label>
+                <label for="pet-color" class="label-control">Color *</label>
                 <select id="pet-color" class="form-control">
                     <option value="">-- Seleccionar --</option>
                 </select>
                 <div id="color-error" class="form-text" style="color:red; display:none;">El Color es requerido</div>
             </div>
             <div class="mb-3">
-                <label class="label-control">Color de Ojos *</label>
+                <label for="pet-eye-color" class="label-control">Color de Ojos *</label>
                 <select id="pet-eye-color" class="form-control">
                     <option value="">-- Seleccionar --</option>
                 </select>

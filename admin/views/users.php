@@ -9,32 +9,33 @@
             <input type="hidden" id="id" value="" />
             <p>Lo campos con (*) son requeridos</p>
             <div class="mb-3">
-                <label class="label-control">Nombre *</label>
+                <label for="name" class="label-control">Nombre *</label>
                 <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" />
             </div>
             <div class="mb-3">
-                <label class="label-control">Apellido *</label>
+                <label for="last-name" class="label-control">Apellido *</label>
                 <input type="text" class="form-control" id="last-name" name="last-name" placeholder="apellido" />
             </div>
             <div class="mb-3">
-                <label class="label-control">E-Mail *</label>
+                <label for="email" class="label-control">E-Mail *</label>
                 <input type="email" class="form-control" id="email" name="email" placeholder="correo@ejemplo.com" />
             </div>
             <div class="mb-3">
-                <label class="label-control">Tipo *</label>
+                <label for="user-type" class="label-control">Tipo *</label>
                 <select class="form-control" id="user-type">
                     <option value="">-- Seleccionar --</option>
                 </select>
-            </div>            <div class="mb-3">
-                <label class="label-control">Telefono</label>
+            </div>            
+            <div class="mb-3">
+                <label for="phone" class="label-control">Telefono</label>
                 <input class="form-control" type="number" id="phone" name="phone" placeholder="3332221144"/>
             </div>
             <div class="mb-3">
-                <label class="label-control">Dirección</label>
+                <label for="address" class="label-control">Dirección</label>
                 <input class="form-control" type="text" id="address" name="address" placeholder="Crr 1 # 2 - 33" />
             </div>
             <div class="mb-3">
-                <label class="label-control">Link red social</label>
+                <label for="url" class="label-control">Link red social</label>
                 <input class="form-control" type="text" id="url" name="url" placeholder="Link red social (Facebook, Twitter, LinkedIn)"/>
             </div>
             <button type="button" id="create-user" class="btn btn-primary">Enviar</button>

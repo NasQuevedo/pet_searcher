@@ -12,7 +12,7 @@
                         <div id="name-error" class="form-text" style="color:red; display:none;">El nombre es requerido</div>
                     </div>
                     <div class="mb-3">
-                        <label for="text" class="form-label">Apellido *</label>
+                        <label for="last-name" class="form-label">Apellido *</label>
                         <input type="text" class="form-control" id="last-name" placeholder="Apellido"/>
                         <div id="last-name-error" class="form-text" style="color:red; display:none;">El apellido es requerido</div>
                     </div>
@@ -22,13 +22,13 @@
                         <div id="email-error" class="form-text" style="color:red; display:none;">El E-Mail es requerido</div>
                     </div>
                     <div class="mb-3">
-                        <label for="password" for="form-label">Password *</label>
+                        <label for="password-signup" for="form-label">Password *</label>
                         <input type="password" class="form-control" id="password-signup"/>
                         <div id="password-error" class="form-text" style="color:red; display:none;">La contraseña es requerida</div>
                         <div id="password-length-error" class="form-text" style="color:red; display:none;">La contraseña debe tener por lo menos 8 digitos</div>
                     </div>
                     <div class="mb-3">
-                        <label for="password" for="form-label">Confirm Password *</label>
+                        <label for="confirm-password-signup" for="form-label">Confirm Password *</label>
                         <input type="password" class="form-control" id="confirm-password-signup"/>
                         <div id="confirm-password-error" class="form-text" style="color:red; display:none;">Debe confirmar la contraseña</div>
                         <div id="no-match-error" class="form-text" style="color:red; display:none;">La contraseña no coincide</div>

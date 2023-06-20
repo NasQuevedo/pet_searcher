@@ -3,13 +3,13 @@
         <h2 class="display-6">Raza</h2>
         <input type="hidden" id="id" value="" /> 
         <div class="mb-3">
-            <label class="label-control">Tipo</label>
+            <label for="pet-type" class="label-control">Tipo</label>
             <select id="pet-type" class="form-control">
                 <option value="">-- Seleccionar --</option>
             </select>
         </div>
         <div class="mb-3">
-            <label class="label-control">Nombre</label>
+            <label for="name" class="label-control">Nombre</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" />
         </div>
         <button type="button" id="save" class="btn btn-primary">Enviar</button>

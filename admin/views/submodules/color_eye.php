@@ -3,7 +3,7 @@
         <h2 class="display-6">Color de Ojos</h2>
         <input type="hidden" id="id" value="" /> 
         <div class="mb-3">
-            <label class="label-control">Nombre</label>
+            <label for="name" class="label-control">Nombre</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" />
         </div>
         <button type="button" id="save" class="btn btn-primary">Enviar</button>

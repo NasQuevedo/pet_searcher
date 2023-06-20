@@ -27,3 +27,13 @@
         </div>
     </div>
 </section>
+
+<section>
+    <div class="row">
+        <div id="community" class="col-sm-12">
+            <h2>Comunidad</h2>
+            <p>Tambien podras ser parte de la comunidad</p>
+            <img src="./icons/community.png" alt="community" style="width: 20%;" />
+        </div>
+    </div>
+</section>
