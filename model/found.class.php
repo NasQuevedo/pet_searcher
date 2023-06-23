@@ -2,7 +2,7 @@
 require_once('db.class.php');
 
 class Found extends Db {
-    public function create($userId, $name, $genre, $petType, $breeds, $petColor, $petEyeColor, $fileUrl)
+    public function create($userId, $name, $genre, $petType, $breeds, $petColor, $petEyeColor, $description, $fileUrl)
     {
         $params = [
             $userId,
@@ -12,6 +12,7 @@ class Found extends Db {
             $breeds,
             $petColor,
             $petEyeColor,
+            $description,
             $fileUrl
         ];
 
@@ -23,8 +24,9 @@ class Found extends Db {
                     breed_id,
                     pet_color_id,
                     pet_eye_color_id,
+                    description,
                     file_url
-                ) VALUES (?,?,?,?,?,?,?,?)";
+                ) VALUES (?,?,?,?,?,?,?,?,?)";
 
         $conn = $this->connect();
 

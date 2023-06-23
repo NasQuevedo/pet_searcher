@@ -57,6 +57,10 @@
                 <div id="color-eye-error" class="form-text" style="color:red; display:none;">El Color de Ojos es requerido</div>
             </div>
             <div class="mb-3">
+                <label for="description" class="label-control">Descripción</label>
+                <textarea id="description" class="form-control" placeholder="Agrega una descripción adicional"></textarea>
+            </div>
+            <div class="mb-3">
                 <label for="pet-photo" class="form-label">Foto</label>
                 <input class="form-control" type="file" id="pet-photo">
             </div>

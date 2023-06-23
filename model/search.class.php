@@ -63,6 +63,7 @@ class Search extends Db {
                     b.name as breed,
                     pc.color,
                     pec.color as color_eyes,
+                    f.description,
                     f.file_url
                 FROM found f
                 INNER JOIN users u ON (f.user_id = u.id)

@@ -2,9 +2,21 @@
     $name = $_SESSION['name'];
     $lastName = $_SESSION['last_name'];
     $email = $_SESSION['email'];
-    $phone = $_SESSION['phone'];
-    $address = $_SESSION['address'];
-    $url = $_SESSION['url'];
+
+    $phone = '';
+    if (isset($_SESSION['phone'])) {
+        $phone = $_SESSION['phone'];
+    }
+
+    $address = '';
+    if (isset($_SESSION['address'])) {
+        $address = $_SESSION['address'];
+    }
+
+    $url = '';
+    if (isset($_SESSION['url'])) {
+        $url = $_SESSION['url'];
+    }
 ?>
 <div class="col-sm-9 div-config-form">
     <form>

@@ -63,6 +63,7 @@ jQuery("#save").on('click', () => {
     const breeds = jQuery("#breeds").val();
     const petColor = jQuery("#pet-color").val();
     const petEyeColor = jQuery("#pet-eye-color").val();
+    const description = jQuery("#description").val();
     let validated = true;
     //Errors
 
@@ -99,6 +100,7 @@ jQuery("#save").on('click', () => {
     formData.append('breeds', breeds);
     formData.append('petColor', petColor);
     formData.append('petEyeColor', petEyeColor);
+    formData.append('description', description);
     formData.append('file', files);
     formData.append('action', 'create_found');
 

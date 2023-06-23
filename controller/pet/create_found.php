@@ -8,6 +8,7 @@ $petType        = $_POST['petType'];
 $breeds         = $_POST['breeds'];
 $petColor       = $_POST['petColor'];
 $petEyeColor    = $_POST['petEyeColor'];
+$description    = $_POST['description'];
 
 if (isset($_POST['action']) && $_POST['action'] === 'create_found' && $userId !== '') {
     $warning = '';
@@ -29,7 +30,7 @@ if (isset($_POST['action']) && $_POST['action'] === 'create_found' && $userId !=
     }
     
     $pet = new Found();
-    $create = $pet->create($userId, $name, $genre, $petType, $breeds, $petColor, $petEyeColor, $fileUrl);
+    $create = $pet->create($userId, $name, $genre, $petType, $breeds, $petColor, $petEyeColor, $description, $fileUrl);
     if ($create) {
         echo json_encode([ 'response' => 'success', 'warning' => $warning ]);
     } else {
