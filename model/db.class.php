@@ -1,19 +1,25 @@
 <?php
 
+require_once('env.class.php');
+
 class Db {
-    private $host = 'localhost';
+    /*private $host = 'localhost';
     private $port = '3306';
     private $user = 'root';
     private $password = '';
-    private $db = 'pet-searcher';
+    private $db = 'pet-searcher';*/
 
     public function connect()
     {
+        $env = new Env();
+
+        $var = $env->ReadEnv();
+
         $connection = new mysqli(
-            $this->host, 
-            $this->user, 
-            $this->password, 
-            $this->db
+            $var['DATABASE_HOST'], 
+            $var['DATABASE_USERNAME'], 
+            $var['DATABASE_PASSWORD'], 
+            $var['DATABASE_NAME']
         );
 
         if (!$connection) {
